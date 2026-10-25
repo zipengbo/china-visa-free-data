@@ -53,7 +53,7 @@
       "published": "2026-07-13",
       "checked_on": "2026-10-26",
       "policy": "mutual",
-      "notes": "The list states a general stay of under 30 days and lists agreements covering ordinary passports for the countries above. It also lists ordinary-passport agreements for Albania, Armenia, Bosnia and Herzegovina, Mauritius and San Marino but does not state their 60/90-day stays, so those are not linked. For Dominica it lists only Dominican ordinary passports for public affairs."
+      "notes": "The list states a general stay of under 30 days and lists agreements covering ordinary passports for the countries above (Dominica: agreement in force since 2022-09-19, per the Chinese-language table). It also lists ordinary-passport agreements for Albania, Armenia, Bosnia and Herzegovina, Mauritius and San Marino but does not state their 60/90-day stays, so those are not linked."
     }
   ],
   "secondary_sources": [
@@ -629,10 +629,10 @@
       "note_text": null,
       "note_url": null,
       "unilateral_source": null,
-      "mutual_source": null,
+      "mutual_source": "https://cs.mfa.gov.cn/lh/lhqz_149493/list/202607/t20260713_11981384.html",
       "transit_240h_source": null,
-      "source_status": "missing_official_source",
-      "missing_sources": "mutual",
+      "source_status": "official",
+      "missing_sources": null,
       "verified_on": "2026-10-18",
       "embassy_url": "https://dm.china-embassy.gov.cn/eng/",
       "guide_url": "https://chinaeasymode.com/visa-free/dominica/"

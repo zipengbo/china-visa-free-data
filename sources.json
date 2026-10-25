@@ -185,6 +185,7 @@
         "Bahamas",
         "Barbados",
         "Belarus",
+        "Dominica",
         "Ecuador",
         "Fiji",
         "Georgia",
@@ -207,7 +208,7 @@
       "terms": {
         "days": 30
       },
-      "notes": "The list states a general stay of under 30 days and lists agreements covering ordinary passports for the countries above. It also lists ordinary-passport agreements for Albania, Armenia, Bosnia and Herzegovina, Mauritius and San Marino but does not state their 60/90-day stays, so those are not linked. For Dominica it lists only Dominican ordinary passports for public affairs."
+      "notes": "The list states a general stay of under 30 days and lists agreements covering ordinary passports for the countries above (Dominica: agreement in force since 2022-09-19, per the Chinese-language table). It also lists ordinary-passport agreements for Albania, Armenia, Bosnia and Herzegovina, Mauritius and San Marino but does not state their 60/90-day stays, so those are not linked."
     }
   ],
   "secondary": [

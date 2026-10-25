@@ -9,7 +9,7 @@ Who can enter mainland China without a visa, for how long and until when: unilat
 - **50** countries: 30-day unilateral visa-free entry
 - **29** countries: mutual visa exemption
 - **57** countries: 240-hour (10-day) visa-free transit
-- **7** rows still need an official source for at least one policy (see `source_status`)
+- **6** rows still need an official source for at least one policy (see `source_status`)
 
 ## Download
 
@@ -69,7 +69,7 @@ const jp = countries.find((c) => c.iso2 === "JP");
 | Cyprus | 30 days (unilateral) | 31 Dec 2026 | yes | yes | [guide](https://chinaeasymode.com/visa-free/cyprus/) |
 | Czech Republic | visa required |  | yes | yes | [guide](https://chinaeasymode.com/visa-free/czech-republic/) |
 | Denmark | 30 days (unilateral) | 31 Dec 2026 | yes | yes | [guide](https://chinaeasymode.com/visa-free/denmark/) |
-| Dominica | 30 days (mutual) | no end date | no | missing: mutual | [guide](https://chinaeasymode.com/visa-free/dominica/) |
+| Dominica | 30 days (mutual) | no end date | no | yes | [guide](https://chinaeasymode.com/visa-free/dominica/) |
 | Ecuador | 30 days (mutual) | no end date | no | yes | [guide](https://chinaeasymode.com/visa-free/ecuador/) |
 | Egypt | visa required |  | no | n/a | [guide](https://chinaeasymode.com/visa-free/egypt/) |
 | Estonia | 30 days (unilateral) | 31 Dec 2026 | yes | yes | [guide](https://chinaeasymode.com/visa-free/estonia/) |
@@ -184,7 +184,7 @@ Official sources (each country is linked to a source only after the document its
 - [Notice on the Extension of the Unilateral Visa-Free Policy](https://losangeles.china-consulate.gov.cn/eng/visa/Notice/202511/t20251104_11746357.htm) — Consulate General of the People's Republic of China in Los Angeles, published 4 Nov 2025, checked 26 Oct 2026
 - [Notice Regarding the Implementation of Visa-Free Policies for Canada and the United Kingdom](https://english.shanghai.gov.cn/en-PolicyLibrary-EntryExit/20260818/8aa6aa1bc34b4228be0c87a14c75875f.html) — Ministry of Foreign Affairs of China (published by Shanghai Municipal People's Government), published 15 Feb 2026, checked 26 Oct 2026
 - [China extends visa-free policy for Russia to Dec 31, 2027](https://english.shanghai.gov.cn/en-VisaLatest/20260520/0b86f04686c84c4a8bdca4f77dbee1eb.html) — Ministry of Foreign Affairs spokesperson, as published by Shanghai Municipal People's Government, published 20 May 2026, checked 26 Oct 2026
-- [Mutual Visa Exemption List](https://cs.mfa.gov.cn/lh/lhqz_149493/list/202607/t20260713_11981384.html) — China Consular Service, Ministry of Foreign Affairs of China, published 13 Jul 2026, checked 26 Oct 2026. The list states a general stay of under 30 days and lists agreements covering ordinary passports for the countries above. It also lists ordinary-passport agreements for Albania, Armenia, Bosnia and Herzegovina, Mauritius and San Marino but does not state their 60/90-day stays, so those are not linked. For Dominica it lists only Dominican ordinary passports for public affairs.
+- [Mutual Visa Exemption List](https://cs.mfa.gov.cn/lh/lhqz_149493/list/202607/t20260713_11981384.html) — China Consular Service, Ministry of Foreign Affairs of China, published 13 Jul 2026, checked 26 Oct 2026. The list states a general stay of under 30 days and lists agreements covering ordinary passports for the countries above (Dominica: agreement in force since 2022-09-19, per the Chinese-language table). It also lists ordinary-passport agreements for Albania, Armenia, Bosnia and Herzegovina, Mauritius and San Marino but does not state their 60/90-day stays, so those are not linked.
 
 Other references used by China Easy Mode (not counted as official):
 
