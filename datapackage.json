@@ -1,0 +1,162 @@
+{
+  "name": "china-visa-free-data",
+  "title": "China visa-free entry policies by country",
+  "description": "Unilateral visa-free entry, mutual visa exemptions and 240-hour visa-free transit for travellers to mainland China, one record per country.",
+  "homepage": "https://chinaeasymode.com/visa/visa-free-entry/",
+  "version": "2026-10-26",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "China Easy Mode",
+      "path": "https://chinaeasymode.com",
+      "role": "publisher"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Visa-Free Transit Policies",
+      "path": "https://en.nia.gov.cn/n147418/n147463/c183412/content.html"
+    },
+    {
+      "title": "Notice on the Extension of the Unilateral Visa-Free Policy",
+      "path": "https://losangeles.china-consulate.gov.cn/eng/visa/Notice/202511/t20251104_11746357.htm"
+    },
+    {
+      "title": "Notice Regarding the Implementation of Visa-Free Policies for Canada and the United Kingdom",
+      "path": "https://english.shanghai.gov.cn/en-PolicyLibrary-EntryExit/20260818/8aa6aa1bc34b4228be0c87a14c75875f.html"
+    },
+    {
+      "title": "China extends visa-free policy for Russia to Dec 31, 2027",
+      "path": "https://english.shanghai.gov.cn/en-VisaLatest/20260520/0b86f04686c84c4a8bdca4f77dbee1eb.html"
+    },
+    {
+      "title": "Mutual Visa Exemption List",
+      "path": "https://cs.mfa.gov.cn/lh/lhqz_149493/list/202607/t20260713_11981384.html"
+    }
+  ],
+  "resources": [
+    {
+      "name": "china-visa-free",
+      "path": "data/china-visa-free.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country name in English, as used on chinaeasymode.com."
+          },
+          {
+            "name": "iso2",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-2 code."
+          },
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "URL slug of the country page on chinaeasymode.com."
+          },
+          {
+            "name": "entry_policy",
+            "type": "string",
+            "description": "Best visa-free entry route for an ordinary visit: `unilateral_visa_free`, `mutual_visa_exemption`, `transit_240h_only` (no visa-free entry, but 240-hour transit applies) or `visa_required`."
+          },
+          {
+            "name": "visa_free_days",
+            "type": "integer",
+            "description": "Maximum stay per entry under the entry policy. Empty when no visa-free entry applies."
+          },
+          {
+            "name": "unilateral_days",
+            "type": "integer",
+            "description": "Days allowed under China's unilateral visa-free policy. Empty if the country is not covered."
+          },
+          {
+            "name": "unilateral_until",
+            "type": "date",
+            "description": "Last day of the unilateral policy (YYYY-MM-DD). Empty when the country is not covered, or when the source data gives no end date."
+          },
+          {
+            "name": "mutual_days",
+            "type": "integer",
+            "description": "Days per stay under a mutual visa exemption agreement. Empty if none."
+          },
+          {
+            "name": "transit_240h",
+            "type": "boolean",
+            "description": "`true` if nationals qualify for 240-hour (10-day) visa-free transit."
+          },
+          {
+            "name": "note_label",
+            "type": "string",
+            "description": "Short heading of a country-specific note, if any."
+          },
+          {
+            "name": "note_text",
+            "type": "string",
+            "description": "Country-specific note, if any."
+          },
+          {
+            "name": "note_url",
+            "type": "string",
+            "description": "Link backing the note."
+          },
+          {
+            "name": "unilateral_source",
+            "type": "string",
+            "description": "Official source for the unilateral policy for this country."
+          },
+          {
+            "name": "mutual_source",
+            "type": "string",
+            "description": "Official source for the mutual exemption for this country."
+          },
+          {
+            "name": "transit_240h_source",
+            "type": "string",
+            "description": "Official source for 240-hour transit eligibility for this country."
+          },
+          {
+            "name": "source_status",
+            "type": "string",
+            "description": "`official` (every policy on the row has an official source), `missing_official_source` (at least one has none yet, see `missing_sources`) or `no_policy_claimed`."
+          },
+          {
+            "name": "missing_sources",
+            "type": "string",
+            "description": "Policies on the row that still lack an official source, separated by `;`."
+          },
+          {
+            "name": "verified_on",
+            "type": "date",
+            "description": "Date China Easy Mode last verified the upstream data."
+          },
+          {
+            "name": "embassy_url",
+            "type": "string",
+            "description": "Chinese embassy in that country."
+          },
+          {
+            "name": "guide_url",
+            "type": "string",
+            "description": "China Easy Mode guide for travellers from that country."
+          }
+        ]
+      }
+    },
+    {
+      "name": "china-visa-free-json",
+      "path": "data/china-visa-free.json",
+      "format": "json",
+      "mediatype": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,906 @@
+{
+  "lastVerified": "2026-10-18",
+  "embassiesChecked": "2026-10-25",
+  "sources": [
+    "https://en.nia.gov.cn/n147418/n147463/c183412/content.html",
+    "https://www.china-briefing.com/news/china-visa-free-travel-policies-complete-guide/",
+    "https://losangeles.china-consulate.gov.cn/eng/visa/Notice/202511/t20251104_11746357.htm"
+  ],
+  "_fields": "Per country: name, slug, transit240, unilateral {days, until}, mutual {days}; optional, only when verified: embassy (Chinese embassy website, checked = embassiesChecked), directFlights [{from, to}], notes (one sentence of country-specific advice), seoTitle / seoDescription (override the generated title and description; written by CEM Studio title tests). Leave optional fields out rather than guessing.",
+  "countries": [
+    {
+      "name": "Albania",
+      "slug": "albania",
+      "transit240": true,
+      "mutual": {
+        "days": 90
+      },
+      "embassy": "https://al.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Andorra",
+      "slug": "andorra",
+      "transit240": false,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      }
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "slug": "antigua-and-barbuda",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://ag.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Argentina",
+      "slug": "argentina",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://ar.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Armenia",
+      "slug": "armenia",
+      "transit240": false,
+      "mutual": {
+        "days": 90
+      },
+      "embassy": "https://am.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Australia",
+      "slug": "australia",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://au.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Austria",
+      "slug": "austria",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://at.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Azerbaijan",
+      "slug": "azerbaijan",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://az.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Bahamas",
+      "slug": "bahamas",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://bs.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Bahrain",
+      "slug": "bahrain",
+      "transit240": false,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://bh.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Bangladesh",
+      "slug": "bangladesh",
+      "transit240": false,
+      "embassy": "https://bd.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Barbados",
+      "slug": "barbados",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://bb.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Belarus",
+      "slug": "belarus",
+      "transit240": true,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://by.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Belgium",
+      "slug": "belgium",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://be.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "slug": "bosnia-and-herzegovina",
+      "transit240": true,
+      "mutual": {
+        "days": 90
+      },
+      "embassy": "https://ba.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Brazil",
+      "slug": "brazil",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://br.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Brunei",
+      "slug": "brunei",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": null
+      },
+      "embassy": "https://bn.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Bulgaria",
+      "slug": "bulgaria",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://bg.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Canada",
+      "slug": "canada",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://ca.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Chile",
+      "slug": "chile",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://cl.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Colombia",
+      "slug": "colombia",
+      "transit240": false,
+      "embassy": "https://co.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Croatia",
+      "slug": "croatia",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://hr.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Cyprus",
+      "slug": "cyprus",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://cy.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Czech Republic",
+      "slug": "czech-republic",
+      "transit240": true,
+      "embassy": "https://cz.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Denmark",
+      "slug": "denmark",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://dk.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Dominica",
+      "slug": "dominica",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://dm.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Ecuador",
+      "slug": "ecuador",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://ec.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Egypt",
+      "slug": "egypt",
+      "transit240": false,
+      "embassy": "https://eg.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Estonia",
+      "slug": "estonia",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://ee.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Fiji",
+      "slug": "fiji",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://fj.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Finland",
+      "slug": "finland",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://fi.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "France",
+      "slug": "france",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://fr.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Georgia",
+      "slug": "georgia",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://ge.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Germany",
+      "slug": "germany",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://de.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Ghana",
+      "slug": "ghana",
+      "transit240": false,
+      "embassy": "https://gh.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Greece",
+      "slug": "greece",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://gr.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Grenada",
+      "slug": "grenada",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://gd.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Hungary",
+      "slug": "hungary",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://hu.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Iceland",
+      "slug": "iceland",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://is.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "India",
+      "slug": "india",
+      "transit240": false,
+      "embassy": "https://in.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Indonesia",
+      "slug": "indonesia",
+      "transit240": true,
+      "embassy": "https://id.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Ireland",
+      "slug": "ireland",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://ie.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Israel",
+      "slug": "israel",
+      "transit240": false,
+      "embassy": "https://il.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Italy",
+      "slug": "italy",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://it.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Japan",
+      "slug": "japan",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://jp.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Kazakhstan",
+      "slug": "kazakhstan",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://kz.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Kenya",
+      "slug": "kenya",
+      "transit240": false,
+      "embassy": "https://ke.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Kuwait",
+      "slug": "kuwait",
+      "transit240": false,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://kw.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "slug": "kyrgyzstan",
+      "transit240": true,
+      "embassy": "https://kg.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Latvia",
+      "slug": "latvia",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://lv.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Liechtenstein",
+      "slug": "liechtenstein",
+      "transit240": false,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      }
+    },
+    {
+      "name": "Lithuania",
+      "slug": "lithuania",
+      "transit240": true
+    },
+    {
+      "name": "Luxembourg",
+      "slug": "luxembourg",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://lu.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Malaysia",
+      "slug": "malaysia",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://my.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Maldives",
+      "slug": "maldives",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://mv.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Malta",
+      "slug": "malta",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://mt.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Mauritius",
+      "slug": "mauritius",
+      "transit240": false,
+      "mutual": {
+        "days": 60
+      },
+      "embassy": "https://mu.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Mexico",
+      "slug": "mexico",
+      "transit240": true,
+      "embassy": "https://mx.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Monaco",
+      "slug": "monaco",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      }
+    },
+    {
+      "name": "Montenegro",
+      "slug": "montenegro",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://me.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Morocco",
+      "slug": "morocco",
+      "transit240": false,
+      "embassy": "https://ma.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Nepal",
+      "slug": "nepal",
+      "transit240": false,
+      "embassy": "https://np.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://nl.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "New Zealand",
+      "slug": "new-zealand",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://nz.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Nigeria",
+      "slug": "nigeria",
+      "transit240": false,
+      "embassy": "https://ng.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "North Macedonia",
+      "slug": "north-macedonia",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://mk.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Norway",
+      "slug": "norway",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://no.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Oman",
+      "slug": "oman",
+      "transit240": false,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://om.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Pakistan",
+      "slug": "pakistan",
+      "transit240": false,
+      "embassy": "https://pk.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Peru",
+      "slug": "peru",
+      "transit240": false,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://pe.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Philippines",
+      "slug": "philippines",
+      "transit240": false,
+      "embassy": "https://ph.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Poland",
+      "slug": "poland",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://pl.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Portugal",
+      "slug": "portugal",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://pt.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Qatar",
+      "slug": "qatar",
+      "transit240": true,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://qa.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Romania",
+      "slug": "romania",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://ro.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Russia",
+      "slug": "russia",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2027-12-31"
+      },
+      "embassy": "https://ru.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Samoa",
+      "slug": "samoa",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://ws.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "San Marino",
+      "slug": "san-marino",
+      "transit240": false,
+      "mutual": {
+        "days": 90
+      }
+    },
+    {
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "transit240": false,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://sa.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Serbia",
+      "slug": "serbia",
+      "transit240": true,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://rs.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Seychelles",
+      "slug": "seychelles",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://sc.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Singapore",
+      "slug": "singapore",
+      "transit240": true,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://sg.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Slovakia",
+      "slug": "slovakia",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://sk.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Slovenia",
+      "slug": "slovenia",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://si.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Solomon Islands",
+      "slug": "solomon-islands",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://sb.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "South Africa",
+      "slug": "south-africa",
+      "transit240": false,
+      "embassy": "https://za.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "South Korea",
+      "slug": "south-korea",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://kr.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Spain",
+      "slug": "spain",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://es.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Sri Lanka",
+      "slug": "sri-lanka",
+      "transit240": false,
+      "embassy": "https://lk.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Suriname",
+      "slug": "suriname",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://sr.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Sweden",
+      "slug": "sweden",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://se.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://ch.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Thailand",
+      "slug": "thailand",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://th.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Tonga",
+      "slug": "tonga",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://to.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Turkey",
+      "slug": "turkey",
+      "transit240": false,
+      "embassy": "https://tr.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Ukraine",
+      "slug": "ukraine",
+      "transit240": true,
+      "embassy": "https://ua.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "United Arab Emirates",
+      "slug": "united-arab-emirates",
+      "transit240": true,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://ae.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "transit240": true,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://gb.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "United States",
+      "slug": "united-states",
+      "transit240": true,
+      "embassy": "https://us.china-embassy.gov.cn/eng/"
+    },
+    {
+      "name": "Uruguay",
+      "slug": "uruguay",
+      "transit240": false,
+      "unilateral": {
+        "days": 30,
+        "until": "2026-12-31"
+      },
+      "embassy": "https://uy.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Uzbekistan",
+      "slug": "uzbekistan",
+      "transit240": false,
+      "mutual": {
+        "days": 30
+      },
+      "embassy": "https://uz.china-embassy.gov.cn/"
+    },
+    {
+      "name": "Vietnam",
+      "slug": "vietnam",
+      "transit240": true,
+      "embassy": "https://vn.china-embassy.gov.cn/eng/"
+    }
+  ]
+}

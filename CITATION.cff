@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite China Easy Mode and link to https://chinaeasymode.com."
+title: "China visa-free entry data"
+type: dataset
+authors:
+  - name: "China Easy Mode"
+    website: "https://chinaeasymode.com"
+url: "https://chinaeasymode.com/visa/visa-free-entry/"
+repository-code: "https://github.com/zipengbo/china-visa-free-data"
+license: CC-BY-4.0
+keywords:
+  - China
+  - visa-free
+  - visa exemption
+  - 240-hour transit
+  - travel
