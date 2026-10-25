@@ -31,15 +31,9 @@ CHANGELOG = ROOT / "CHANGELOG.md"
 SITE = "https://chinaeasymode.com"
 REPO = "https://github.com/zipengbo/china-visa-free-data"
 
-# ISO 3166-1 alpha-2 comes from the Chinese embassy's subdomain (gb.china-embassy.gov.cn);
-# these countries have no embassy URL upstream.
-ISO2_FALLBACK = {
-    "Andorra": "AD",
-    "Liechtenstein": "LI",
-    "Lithuania": "LT",
-    "Monaco": "MC",
-    "San Marino": "SM",
-}
+# ISO 3166-1 alpha-2 by country name; a new country falls back to the Chinese embassy's
+# subdomain (gb.china-embassy.gov.cn) and warns so the code can be added here.
+ISO2 = json.loads((ROOT / "scripts" / "iso2.json").read_text(encoding="utf-8"))
 
 # (name, type, description) — single source for the CSV header, datapackage and field docs.
 FIELDS = [
@@ -77,10 +71,12 @@ def load(path):
 
 
 def iso2(country):
+    if country["name"] in ISO2:
+        return ISO2[country["name"]]
     emb = country.get("embassy") or ""
     if ".china-embassy.gov.cn" in emb:
         return emb.split("//", 1)[-1].split(".", 1)[0].upper()
-    return ISO2_FALLBACK.get(country["name"], "")
+    return ""
 
 
 def source_for(policy, country, value, sources):
@@ -119,8 +115,8 @@ def build_rows(upstream, srcs):
         claimed = bool(uni or mut or tr)
         note = c.get("note") or {}
         code = iso2(c)
-        if not code:
-            warnings.append(f"{name}: no ISO code (add it to ISO2_FALLBACK)")
+        if name not in ISO2:
+            warnings.append(f"{name}: no ISO code (add it to scripts/iso2.json)")
         rows.append({
             "country": name,
             "iso2": code,
