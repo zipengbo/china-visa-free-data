@@ -19,6 +19,8 @@ Who can enter mainland China without a visa, for how long and until when: unilat
 | [`data/china-visa-free.json`](data/china-visa-free.json) | Apps and scripts; includes dataset metadata and sources |
 | [`datapackage.json`](datapackage.json) | [Frictionless Data](https://frictionlessdata.io/) descriptor |
 
+Also on [Kaggle](https://www.kaggle.com/datasets/chinaeasymode/china-visa-free-entry-policies-by-country-2026) and [Hugging Face](https://huggingface.co/datasets/chinaeasymode/china-visa-free-entry) (`load_dataset("chinaeasymode/china-visa-free-entry")`).
+
 Stable raw URLs:
 
 ```
